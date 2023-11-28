@@ -1,0 +1,13 @@
+.decoration__purple-ligth {
+  position: absolute;
+
+  top: -154px;
+  left: calc(50% - 130px);
+
+  width: 259px;
+  height: 259px;
+  border-radius: 259px;
+  background: #833AB4;
+
+  filter: blur(196px);
+}

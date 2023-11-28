@@ -1,0 +1,72 @@
+.decoration {
+  position: relative;
+  width: 100%;
+
+  z-index: -1;
+}
+.decoration__red-ligth {
+  position: absolute;
+
+  top: 251px;
+  left: -102px;
+
+  width: 311px;
+  height: 311px;
+  border-radius: 311px;
+  background: #961A1A;
+
+  filter: blur(196px);
+}
+.decoration__group {
+  position: absolute;
+  /* position: relative; */
+
+  top: -154px;
+  left: calc(50% - 130px);
+
+  width: 259px;
+  height: 259px;
+}
+.decoration__purple-ligth {
+  position: absolute;
+
+  width: 259px;
+  height: 259px;
+  border-radius: 259px;
+  background: #833AB4;
+
+  filter: blur(196px);
+}
+.decoration__purple-ball {
+  position: absolute;
+
+  top: 152px;
+  right: -67px;
+
+  width: 94px;
+  height: 81px;
+  
+  background-image: url("../../images/purple-ball.svg");
+}
+.decoration__red-ball {
+  position: absolute;
+
+  bottom: -83px;
+  left: -83px;
+
+  width: 83px;
+  height: 83px;
+  
+  background-image: url("../../images/red-ball.svg");
+}
+.decoration__red-ball-small {
+  position: absolute;
+
+  top: calc(442px + 259px);
+  left: 219px;
+
+  width: 62px;
+  height: 62px;
+  
+  background-image: url("../../images/red-ball-small.svg");
+}

@@ -1,0 +1,84 @@
+.footer {
+  @media (min-height: 868px) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  @media (max-width:320px) {
+    background-color: black;
+    padding-left: 16px;
+    box-sizing: border-box;
+
+    position: unset;
+  }
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 55px;
+
+  @media (max-width:320px) {
+    flex-direction: column;
+    padding-top: 45px;
+  }
+}
+.footer__title {
+  color: #656566;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  text-align: left;
+
+  margin: 0 0 20px;
+
+  @media (max-width:320px) {
+    font-size: 12px;
+    letter-spacing: .6;
+  }
+}
+.footer__about-company {
+  @media (max-width:320px){
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+.footer__title_right {
+  text-align: right;
+  @media (max-width:320px) {
+    text-align: unset;
+  }
+}
+.footer__tilda {
+  text-align: right;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  @media (max-width:320px) {
+    text-align: unset;
+  }
+}
+.footer__tilda_first{
+  margin: 33px 0 5px 0;
+  @media (max-width:320px) {
+    margin-top: 50px;
+  }
+}
+.footer__tilda_last {
+  margin: 0 0 20px 0;
+  text-decoration-line: underline;
+
+  @media (max-width:320px) {
+    margin-bottom: 50px;
+  }
+}

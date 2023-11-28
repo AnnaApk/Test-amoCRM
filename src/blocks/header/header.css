@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  padding-top: 46px;
+  @media (max-width: 320px) {
+    background-color: black;
+    padding: 20px 20px;
+    box-sizing: border-box;
+  }
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-grp {
+  @media (max-width: 320px) {
+    height: 0;
+    width: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+.header__logo {
+  margin: 0 8px 0 0;
+}
+.header__subtitle {
+  width: 165px;
+  margin: 10px 0 0;
+
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  @media (max-width: 320px) {
+    position: absolute;
+    height: 0;
+    width: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}

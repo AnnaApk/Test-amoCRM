@@ -1,0 +1,45 @@
+.contakts {
+  display: flex;
+  gap: 45px;
+  align-items: baseline;
+
+}
+.contakts_header {
+  @media (max-width: 320px) {
+    height: 0;
+    width: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+.contakts_footer {
+  flex-direction: column;
+  gap: 20px;
+  align-items: end;
+
+  @media (max-width:320px) {
+    align-items: start;
+  }
+}
+.contakts__tel {
+  text-decoration: none;
+  color: #E4E5EA;
+  cursor: pointer;
+
+  scale: 1;
+  transition: scale ease-out .5s;
+}
+.contakts__tel:hover {
+  scale: 1.05;
+  transition: scale ease-out .5s;
+}
+.contakts__call-group {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contakts__call-group a:hover{
+  scale: 1.05;
+  transition: scale ease-out .5s;
+}

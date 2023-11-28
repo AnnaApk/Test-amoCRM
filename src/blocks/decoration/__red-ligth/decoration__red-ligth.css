@@ -1,0 +1,13 @@
+.decoration__red-ligth {
+  position: absolute;
+
+  top: 251px;
+  left: -102px;
+
+  width: 311px;
+  height: 311px;
+  border-radius: 311px;
+  background: #961A1A;
+
+  filter: blur(196px);
+}
