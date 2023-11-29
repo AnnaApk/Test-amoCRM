@@ -9,6 +9,7 @@ function Decoration() {
         <div className="decoration__purple-ball"></div>
         <div className="decoration__red-ball"></div>
         <div className="decoration__red-ball-small"></div>
+        <div className="decoration__blue-ligth"></div>
       </div>
     </div>
   )
